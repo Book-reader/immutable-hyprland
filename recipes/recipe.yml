@@ -83,5 +83,9 @@ modules:
     enabled:
       - ly.service # Enabled (runs on system boot)
 
+  - type: files
+    files:
+      - usr: /usr # copies config/files/usr into your images /usr
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

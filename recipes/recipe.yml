@@ -52,7 +52,6 @@ modules:
        - trash-cli
        - eza
        - wl-clipboard
-       - iproute
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

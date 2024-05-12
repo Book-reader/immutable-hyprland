@@ -3,7 +3,7 @@
 My personal blue-build config with hyprland on fedora 40
 
 Known issues:
-display manager does not open & when opened is blocked by selinux - working on it
+display manager does not open & when opened is blocked by selinux - working on it\\
 no workspaces in waybar - upstream issue, can be temporarily fixed by linking xdg_runtime_dir/hypr to tmp/hypr
 
 ## Installation

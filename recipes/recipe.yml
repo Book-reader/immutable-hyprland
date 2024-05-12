@@ -30,8 +30,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/book-reader/ly/repo/fedora-%OS_VERSION%/book-reader-ly-fedora-%OS_VERSION%.repo
     install:
       # RPMFUSION
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm
       - starship
       - hyprland
       - hyprlock

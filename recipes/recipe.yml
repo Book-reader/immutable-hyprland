@@ -28,7 +28,9 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/alternateved/tofi/repo/fedora-%OS_VERSION%/alternateved-tofi-fedora-%OS_VERSION%.repo
       # my ly build (very cursed)
       - https://copr.fedorainfracloud.org/coprs/book-reader/ly/repo/fedora-%OS_VERSION%/book-reader-ly-fedora-%OS_VERSION%.repo
+      # RPMFUSION
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
     install:
        - starship
        - hyprland

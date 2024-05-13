@@ -78,6 +78,7 @@ modules:
       install:
         - net.waterfox.waterfox
         - org.gnome.Evince
+        - org.gnome.Loupe
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).

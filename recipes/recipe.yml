@@ -37,6 +37,7 @@ modules:
       - hyprlock
       - hypridle
       - hyprpaper
+      - hyprshot
       - alacritty
       - tofi
       - rofi-wayland

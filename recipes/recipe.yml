@@ -47,7 +47,8 @@ modules:
       - fastfetch
       - waybar
       - distrobox
-      - pcmanfm
+      - nemo
+      - nemo-fileroller
       - NetworkManager-tui
       - network-manager-applet
       - blueman
@@ -80,6 +81,7 @@ modules:
         - net.waterfox.waterfox
         - org.gnome.Evince
         - org.gnome.Loupe
+        - org.gnome.FileRoller
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).

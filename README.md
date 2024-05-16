@@ -6,7 +6,7 @@ Known issues:
 
 display manager does not open & when opened is blocked by selinux - working on it
 
-no workspaces in waybar - upstream issue, can be temporarily fixed by linking xdg_runtime_dir/hypr to tmp/hypr
+no workspaces in waybar - fixed upstream, not in fedors 40 yet, can be temporarily fixed by linking xdg_runtime_dir/hypr to tmp/hypr
 
 ## Installation
 

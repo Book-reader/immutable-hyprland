@@ -1,1 +1,2 @@
 PATH="/usr/bin:/usr/local/bin:/usr/sbin:/usr/local/sbin"
+QT_QPA_PLATFORMTHEME=qt5ct

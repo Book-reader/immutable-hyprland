@@ -39,8 +39,7 @@ modules:
       - alacritty
       - tofi
       - rofi-wayland
-      - slick-greeter
-      - lightdm-settings
+      - tuigreet
       - vim
       - fish
       - fastfetch
@@ -89,7 +88,7 @@ modules:
   - type: systemd
     system:
     enabled:
-      - lightdm.service # Enabled (runs on system boot)
+      - tuigreet.service # Enabled (runs on system boot)
 
   - type: files
     files:

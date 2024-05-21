@@ -39,8 +39,8 @@ modules:
       - alacritty
       - tofi
       - rofi-wayland
-      - lightdm-gtk
-      - lightdm-gtk-greeter-settings
+      - slick-greeter
+      - lightdm-settings
       - vim
       - fish
       - fastfetch

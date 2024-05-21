@@ -62,6 +62,7 @@ modules:
     remove:
       - selinux-policy
       - selinux-policy-targeted
+      - rpm-plugin-selinux
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox

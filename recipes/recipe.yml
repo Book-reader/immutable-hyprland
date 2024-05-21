@@ -41,7 +41,7 @@ modules:
       - alacritty
       - tofi
       - rofi-wayland
-      #- ly-git
+      - ly-git
       - vim
       - fish
       - fastfetch

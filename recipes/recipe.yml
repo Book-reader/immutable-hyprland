@@ -26,8 +26,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
        # tofi app launcher
       - https://copr.fedorainfracloud.org/coprs/alternateved/tofi/repo/fedora-%OS_VERSION%/alternateved-tofi-fedora-%OS_VERSION%.repo
-      # my ly build (very cursed)
-      - https://copr.fedorainfracloud.org/coprs/book-reader/ly/repo/fedora-%OS_VERSION%/book-reader-ly-fedora-%OS_VERSION%.repo
     install:
       # RPMFUSION
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
@@ -41,7 +39,8 @@ modules:
       - alacritty
       - tofi
       - rofi-wayland
-      - ly-git
+      - lightdm-gtk
+      - lightdm-settings
       - vim
       - fish
       - fastfetch
@@ -90,7 +89,7 @@ modules:
   - type: systemd
     system:
     enabled:
-      - ly.service # Enabled (runs on system boot)
+      - lightdm.service # Enabled (runs on system boot)
 
   - type: files
     files:

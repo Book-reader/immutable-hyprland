@@ -89,8 +89,8 @@ modules:
       # - org.gnome.eog
   - type: systemd
     system:
-    enabled:
-      - tuigreet.service # Enabled (runs on system boot)
+      enabled:
+        - tuigreet.service # Enabled (runs on system boot)
 
   - type: files
     files:

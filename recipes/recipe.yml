@@ -91,6 +91,7 @@ modules:
     system:
       enabled:
         - ly.service # Enabled (runs on system boot)
+        - tlp.service
 
   - type: files
     files:

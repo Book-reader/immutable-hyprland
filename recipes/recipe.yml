@@ -90,7 +90,7 @@ modules:
   - type: systemd
     system:
       enabled:
-        - tuigreet.service # Enabled (runs on system boot)
+        - ly.service # Enabled (runs on system boot)
 
   - type: files
     files:

@@ -3,8 +3,7 @@
 My personal blue-build config with hyprland on fedora 40
 
 Known issues:
-
-no workspaces in waybar - fixed upstream, not in fedors 40 yet, can be temporarily fixed by symlinking xdg_runtime_dir/hypr to tmp/hypr
+login manager not showing up
 
 ## Installation
 

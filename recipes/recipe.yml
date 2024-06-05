@@ -34,6 +34,7 @@ modules:
       - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm
       - starship
       - hyprland
+      - hyprland-devel
       - hyprlock
       - hypridle
       - hyprpaper

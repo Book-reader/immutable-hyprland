@@ -49,6 +49,7 @@ modules:
       - distrobox
       - nemo
       - nemo-fileroller
+      - ffmpegthumbnailer
       - NetworkManager-tui
       - network-manager-applet
       - blueman

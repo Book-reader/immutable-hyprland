@@ -68,6 +68,21 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
+  # A fun workaround
+  - type: rpm-ostree
+    install:
+      - ffmpeg
+    remove:
+      - ffmpeg-free
+      - libavcodec-free
+      - libavdevice-free
+      - libavfilter-free
+      - libavformat-free
+      - libavutil-free
+      - libpostproc-free
+      - libswresample-free
+      - libswscale-free
+      - kitty
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)

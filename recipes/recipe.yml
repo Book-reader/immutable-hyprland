@@ -84,10 +84,6 @@ modules:
       - libswscale-free
       - kitty
 
-  - type: script
-    scripts:
-      - xonsh.sh # installs xonsh shell in venv
-
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
@@ -117,6 +113,11 @@ modules:
   - type: files
     files:
       - usr: /usr # copies config/files/usr into your images /usr
+      - var: /var
+
+  - type: script
+    snippets:
+      - "/var/opt/xonsh/bin/pip install --upgrade xonsh[all]"
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

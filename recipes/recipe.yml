@@ -84,6 +84,10 @@ modules:
       - libswscale-free
       - kitty
 
+  - type: script
+    scripts:
+      - xonsh.sh # installs xonsh shell in venv
+
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:

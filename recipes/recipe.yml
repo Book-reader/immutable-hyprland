@@ -116,7 +116,7 @@ modules:
       - "/var/opt/xonsh/bin/python -m pip install --upgrade xonsh[full]"
       - "ln -s /var/opt/xonsh/bin/xonsh* /usr/bin"
       - "chmod -R 777 /var/opt/xonsh"
-      - "echo '/usr/bin/xonsh' >> /etc/shells"
+      - "echo '/usr/bin/xonsh' >> /usr/etc/shells"
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

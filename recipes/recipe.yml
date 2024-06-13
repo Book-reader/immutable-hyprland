@@ -117,7 +117,7 @@ modules:
 
   - type: script
     snippets:
-      - "/var/opt/xonsh/bin/pip install --upgrade xonsh[all]"
+      - "/opt/xonsh/bin/pip install --upgrade xonsh[all]"
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

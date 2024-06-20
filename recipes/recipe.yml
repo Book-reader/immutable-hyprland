@@ -28,6 +28,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/alternateved/tofi/repo/fedora-%OS_VERSION%/alternateved-tofi-fedora-%OS_VERSION%.repo
        # My ly build
       - https://copr.fedorainfracloud.org/coprs/book-reader/ly/repo/fedora-%OS_VERSION%/book-reader-ly-fedora-%OS_VERSION%.repo
+       # Waterfox
+      - https://download.opensuse.org/repositories/home:hawkeye116477:waterfox/Fedora_%OS_VERSION%/home:hawkeye116477:waterfox.repo
     install:
       # RPMFUSION
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
@@ -63,6 +65,7 @@ modules:
       - pamixer
       - tlp
       - mpv
+      - waterfox-kde
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -93,7 +96,6 @@ modules:
       repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        - net.waterfox.waterfox
         - org.gnome.Evince
         - org.gnome.Loupe
         - org.gnome.FileRoller

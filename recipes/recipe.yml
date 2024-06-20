@@ -29,7 +29,7 @@ modules:
        # My ly build
       - https://copr.fedorainfracloud.org/coprs/book-reader/ly/repo/fedora-%OS_VERSION%/book-reader-ly-fedora-%OS_VERSION%.repo
        # Waterfox
-      - https://download.opensuse.org/repositories/home:hawkeye116477:waterfox/Fedora_%OS_VERSION%/home:hawkeye116477:waterfox.repo
+      - "https://download.opensuse.org/repositories/home:hawkeye116477:waterfox/Fedora_%OS_VERSION%/home:hawkeye116477:waterfox.repo"
     install:
       # RPMFUSION
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm

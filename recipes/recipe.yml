@@ -43,7 +43,7 @@ modules:
       - alacritty
       - tofi
       - rofi-wayland
-      - ly-git
+      - ly
       - vim
       - fish
       - fastfetch

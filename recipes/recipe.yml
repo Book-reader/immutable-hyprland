@@ -44,7 +44,7 @@ modules:
       - tofi
       - rofi-wayland
       - ly
-      - vim
+      - neovim
       - fish
       - fastfetch
       - waybar

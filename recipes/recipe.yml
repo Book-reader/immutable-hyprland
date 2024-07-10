@@ -113,5 +113,9 @@ modules:
         - ly.service # Enabled (runs on system boot)
         - tlp.service
 
+  - type: script
+    snippets:
+      - "if ! grep \"VARIANT\" /etc/os-release; then echo \"VARIANT=\\\"Silverblue\\\"\" >> /usr/lib/os-release; fi"
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 

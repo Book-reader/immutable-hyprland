@@ -99,12 +99,11 @@ modules:
       - nodejs-cjs-module-lexer
       - nodejs-libs
       - nodejs-undici
-      - nodejs18-docs
-      - nodejs18-full-i18n
-      - nodejs18-libs
-      - nodejs18-npm
       - binutils
+      - binutils-gold
       - gc
+      - guile30
+      - make
 
 
   - type: default-flatpaks

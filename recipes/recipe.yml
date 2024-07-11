@@ -99,7 +99,6 @@ modules:
       - nodejs-cjs-module-lexer
       - nodejs-libs
       - nodejs-undici
-      - nodejs18
       - nodejs18-docs
       - nodejs18-full-i18n
       - nodejs18-libs

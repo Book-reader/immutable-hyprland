@@ -44,7 +44,7 @@ modules:
       - tofi
       - rofi-wayland
       - ly
-      - vim
+      - neovim
       - fish
       - fastfetch
       - waybar
@@ -87,6 +87,13 @@ modules:
       - libswresample-free
       - libswscale-free
       - kitty
+      # Optional neovim dependencies
+      - gcc-c++
+      - mailcap
+      - nodejs
+      - tree-sitter-cli
+      - xsel
+      - gcc
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)

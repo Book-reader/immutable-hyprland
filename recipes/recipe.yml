@@ -91,6 +91,7 @@ modules:
       - gcc-c++
       - nodejs
       - nodejs-full-i18n
+      - nodejs-docs
       - tree-sitter-cli
       - xsel
       - gcc

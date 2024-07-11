@@ -89,8 +89,8 @@ modules:
       - kitty
       # Optional neovim dependencies
       - gcc-c++
-      - mailcap
       - nodejs
+      - nodejs-full-i18n
       - tree-sitter-cli
       - xsel
       - gcc

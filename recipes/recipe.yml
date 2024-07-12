@@ -107,6 +107,7 @@ modules:
       - make
       # Install yt-dlp throgh pipx instead
       - yt-dlp
+      - yt-dlp-fish-completion
 
 
   - type: default-flatpaks

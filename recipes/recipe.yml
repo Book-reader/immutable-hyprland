@@ -80,6 +80,7 @@ modules:
     install:
       - ffmpeg
     remove:
+    # Use ffmpeg instead of ffmpeg-free
       - ffmpeg-free
       - libavcodec-free
       - libavdevice-free
@@ -90,23 +91,6 @@ modules:
       - libswresample-free
       - libswscale-free
       - kitty
-      # Optional neovim dependencies
-      - gcc-c++
-      - nodejs
-      - nodejs-full-i18n
-      - nodejs-docs
-      - nodejs-npm
-      - tree-sitter-cli
-      - xsel
-      - gcc
-      - nodejs-cjs-module-lexer
-      - nodejs-libs
-      - nodejs-undici
-      - binutils
-      - binutils-gold
-      - gc
-      - guile30
-      - make
       # Install yt-dlp throgh pipx instead
       - yt-dlp
       - yt-dlp-fish-completion

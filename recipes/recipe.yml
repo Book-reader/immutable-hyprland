@@ -44,7 +44,6 @@ modules:
       - tofi
       - rofi-wayland
       - ly
-      - neovim
       - fish
       - fastfetch
       - waybar
@@ -68,7 +67,7 @@ modules:
       - pipx
       - waterfox-kde
       - gparted
-      - emacs
+      - kakoune
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

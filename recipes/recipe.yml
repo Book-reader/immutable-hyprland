@@ -52,7 +52,7 @@ modules:
       - distrobox
       - nemo
       - nemo-fileroller
-      - ffmpegthumbnailer
+      - https://rpmfusion.ip-connect.info/free/fedora/releases/40/Everything/x86_64/os/Packages/f/ffmpegthumbnailer-2.2.3-0.7.20240104git1b5a779.fc40.x86_64.rpm
       - NetworkManager-tui
       - network-manager-applet
       - blueman

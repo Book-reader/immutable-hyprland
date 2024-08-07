@@ -52,6 +52,9 @@ modules:
       - distrobox
       - nemo
       - nemo-fileroller
+      # It looks like rpmsusion has removed ffmpegthumbnailer from their repos
+      # See: https://github.com/rpmfusion/ffmpegthumbnailer/blob/master/dead.package
+      # It is in rawhide but not in 40 yet, so I download it manually for now.
       - https://rpmfusion.ip-connect.info/free/fedora/releases/40/Everything/x86_64/os/Packages/f/ffmpegthumbnailer-2.2.3-0.7.20240104git1b5a779.fc40.x86_64.rpm
       - NetworkManager-tui
       - network-manager-applet

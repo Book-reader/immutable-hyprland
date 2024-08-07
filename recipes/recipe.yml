@@ -70,7 +70,7 @@ modules:
       - waterfox-kde
       - gparted
       - emacs
-      - keepassxc
+      - gnome-keyring
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

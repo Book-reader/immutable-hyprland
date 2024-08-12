@@ -74,6 +74,7 @@ modules:
       - gparted
       - emacs
       - gnome-keyring
+      - imv
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -111,7 +112,6 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.gnome.Evince
-        - org.gnome.Loupe
         - org.gnome.FileRoller
         - com.github.d4nj1.tlpui
         # - org.gnome.Loupe

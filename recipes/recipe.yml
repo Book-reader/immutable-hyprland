@@ -27,8 +27,6 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
        # tofi app launcher
       - https://copr.fedorainfracloud.org/coprs/alternateved/tofi/repo/fedora-%OS_VERSION%/alternateved-tofi-fedora-%OS_VERSION%.repo
-       # My ly build
-      - https://copr.fedorainfracloud.org/coprs/book-reader/ly/repo/fedora-%OS_VERSION%/book-reader-ly-fedora-%OS_VERSION%.repo
        # Waterfox
       - https://download.opensuse.org/repositories/home:/hawkeye116477:/waterfox/Fedora_40/home:hawkeye116477:waterfox.repo
     install:
@@ -44,7 +42,6 @@ modules:
       - alacritty
       - tofi
       - rofi-wayland
-      - ly
       - neovim
       - fish
       - fastfetch

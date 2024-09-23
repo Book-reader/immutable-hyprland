@@ -2,8 +2,6 @@
 
 My personal blue-build config with hyprland on fedora 40
 
-Known issues:
-login manager not showing up
 
 ## Installation
 

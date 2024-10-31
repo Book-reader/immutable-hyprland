@@ -82,6 +82,7 @@ modules:
   - type: rpm-ostree
     install:
       - ffmpeg
+      - openh264
     remove:
       #Use ffmpeg instead of ffmpeg-free
       - ffmpeg-free
@@ -94,6 +95,7 @@ modules:
       - libswresample-free
       - libswscale-free
       - kitty
+      - noopenh264
       # Install yt-dlp throgh pipx instead
       - yt-dlp
       - yt-dlp-fish-completion

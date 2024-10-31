@@ -31,8 +31,8 @@ modules:
       - https://download.opensuse.org/repositories/home:/hawkeye116477:/waterfox/Fedora_40/home:hawkeye116477:waterfox.repo
     install:
       # RPMFUSION
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-41.noarch.rpm
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-41.noarch.rpm
       - starship
       - hyprland
       - hyprlock

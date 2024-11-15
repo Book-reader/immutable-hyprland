@@ -67,7 +67,7 @@ modules:
       - tlp
       - mpv
       - pipx
-      - waterfox-kde
+      - waterfox
       - gparted
       - emacs
       - gnome-keyring

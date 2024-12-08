@@ -7,7 +7,7 @@ description: This is my personal OS image.
 #base-image: ghcr.io/ublue-os/silverblue-main
 #image-version: 40 # latest is also supported if you want new updates ASAP
 base-image: quay.io/fedora-ostree-desktops/base
-image-version: 40 # latest is also supported if you want new updates ASAP
+image-version: 41 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -31,8 +31,8 @@ modules:
       - https://download.opensuse.org/repositories/home:/hawkeye116477:/waterfox/Fedora_40/home:hawkeye116477:waterfox.repo
     install:
       # RPMFUSION
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-40.noarch.rpm
-      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-40.noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-41.noarch.rpm
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-41.noarch.rpm
       - starship
       - hyprland
       - hyprlock
@@ -49,10 +49,7 @@ modules:
       - distrobox
       - nemo
       - nemo-fileroller
-      # It looks like rpmsusion has removed ffmpegthumbnailer from their repos
-      # See: https://github.com/rpmfusion/ffmpegthumbnailer/blob/master/dead.package
-      # It is in rawhide but not in 40 yet, so I download it manually for now.
-      - https://mirror.fcix.net/rpmfusion/free/fedora/releases/40/Everything/x86_64/os/Packages/f/ffmpegthumbnailer-2.2.3-0.7.20240104git1b5a779.fc40.x86_64.rpm
+      - ffmpegthumbnailer
       - NetworkManager-tui
       - network-manager-applet
       - blueman
@@ -61,7 +58,8 @@ modules:
       - trash-cli
       - eza
       - wl-clipboard
-      - polkit-gnome
+      # TODO: use hyprpolkitagent when in solopasha/hyprland
+      - xfce-polkit
       - pavucontrol
       - pamixer
       - tlp
@@ -85,6 +83,7 @@ modules:
   - type: rpm-ostree
     install:
       - ffmpeg
+      - openh264
     remove:
       #Use ffmpeg instead of ffmpeg-free
       - ffmpeg-free
@@ -97,6 +96,7 @@ modules:
       - libswresample-free
       - libswscale-free
       - kitty
+      - noopenh264
       # Install yt-dlp throgh pipx instead
       - yt-dlp
       - yt-dlp-fish-completion

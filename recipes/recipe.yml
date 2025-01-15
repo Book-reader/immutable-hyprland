@@ -104,6 +104,7 @@ modules:
       - noopenh264
       # Install yt-dlp throgh pipx instead
       - yt-dlp
+      - yt-dlp+default
       - yt-dlp-fish-completion
       - yt-dlp-bash-completion
       - xsel
